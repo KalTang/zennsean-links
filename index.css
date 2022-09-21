@@ -1,0 +1,32 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: gray;
+    color: #08dcb4;
+}
+header {
+    margin-top: 3em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > img {
+    width: 8em;
+    height: 8em;
+    border-radius: 100%;
+    border: 3px solid #08dcb4;
+    box-shadow: #08dcb4 0px 2px 14px 0px;
+}
+
+header > h1 {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 1em;
+    background-color: #000a;
+    padding: 0.3em 0.6em;
+}
