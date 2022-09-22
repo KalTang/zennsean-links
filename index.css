@@ -40,7 +40,7 @@ header > img {
         box-shadow: 0 0 0 0px rgba(255, 82, 34, 1);
     }
     100% {
-        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 11px rgba(0, 0, 0, 0);
     }
 }
 
@@ -135,5 +135,13 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 20px;
+}
+footer > p {
+    margin: 0.2em;
+    background-color: #000a;
+    border: 1px solid #fff;
+    border-radius: 10em;
+    color: #fff;
+    padding: 0.2%;
 }
