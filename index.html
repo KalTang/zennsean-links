@@ -27,11 +27,20 @@
                     separation: 35.0,
                     colorMode: 'lerpGradient',
                 });
+                setTimeout(() => {
+                            const main = document.querySelector('main')
+                main.style.opacity = 1
+                main.style.filter = 'blur(0px)'
+                }, 1000)
+            
             });
+  
+    
         </script>
     </head>
     <body>
         <div id="vanta"></div>
+      <main>
         <header>
             <img src="./images/zennsean.png" />
             <h1>@ZennSean</h1>
@@ -50,13 +59,13 @@
         </div>
         <ul>
             <li>
-                <a href="https://www.twitch.tv/zennsean">
+                <a href="https://www.twitch.tv/zennsean" target="_blank">
                     <img src="./images/twitch.svg" alt="Twitch" width="40" />
                     Come watch my Stream!
                 </a>
             </li>
             <li>
-                <a href="https://discord.com/invite/GC5pr24Mtu">
+                <a href="https://discord.com/invite/GC5pr24Mtu" target="_blank">
                     <img src="./images/discord.svg" alt="Discord" width="40" />
                     Join the Discord! <img
                         src="./images/zennseannnn.jpg"
@@ -108,9 +117,10 @@
         <footer>
             <p>This page was coded and made with ❤️ </p>
             <p>&copy;ZennSean <span id="year"></span> </p>
+            <script>
+                document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
         </footer>
-          <script>
-  document.getElementById("year").innerHTML = new Date().getFullYear();
-  </script>
-    </body>
+         </main> 
+ </body>
 </html>
